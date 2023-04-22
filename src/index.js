@@ -5,6 +5,7 @@ import App from './App';
 import AboutHtml from './Components/about';
 import reportWebVitals from './reportWebVitals';
 import {createHashRouter,RouterProvider } from 'react-router-dom';
+import Home from './home';
 
 const router = createHashRouter([
   {
@@ -12,13 +13,13 @@ const router = createHashRouter([
       element: <App />,
       children: [
           {
-              path: "/",
-              element: <App />,
-          },
-          {
               path: "/about",
               element: <AboutHtml />,
           },
+          {
+            path: "/",
+            element: <Home />,
+        },
       ],
   },
 ])

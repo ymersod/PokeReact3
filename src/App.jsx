@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import "./App.css";
 import LoadTable from "./Components/LoadPokemonTable";
 import { Link, Outlet } from "react-router-dom";
@@ -8,9 +7,9 @@ const App = () => {
     <div className="App">
       <nav>
         <Link to="/about">About</Link>
+        <Link to="/">Home</Link>
       </nav>
       <Outlet />
-      <LoadTable limit={20} />
     </div>
   );
 };
