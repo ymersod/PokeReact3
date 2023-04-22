@@ -1,0 +1,122 @@
+.TableRootContainer {
+    width: 1500px;
+}
+
+.PokemonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 260px;
+    height: 180px;
+    margin: 10px;
+    position: relative;
+    border: solid black;
+    background-color: white;
+    float: left;
+  }
+  
+  .PokemonContainer img {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+  }
+  
+  .Info {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+  }
+  
+  .Name {
+    text-transform: capitalize;
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  @font-face {
+    font-family: 'Pokemon Solid';
+    src: url('C:\Users\simon\Documents\Web2\Afl2\pokedex2\public\PokeText.ttf');
+  }
+  .Types {
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Pokemon Solid', sans-serif;
+  }
+  
+
+  .PokemonContainer.bug {
+    background-color: #8CB230;
+  }
+  .PokemonContainer.dark {
+    background-color: #58575F;
+  }
+  
+  .PokemonContainer.dragon {
+    background-color: #0F6AC0;
+  }
+  
+  .PokemonContainer.electric {
+    background-color: #EED535;
+  }
+  
+  .PokemonContainer.fairy {
+    background-color: #ED6EC7;
+  }
+  
+  .PokemonContainer.fighting {
+    background-color: #D04164;
+  }
+  
+  .PokemonContainer.fire {
+    background-color: #FD7D24;
+  }
+  
+  .PokemonContainer.flying {
+    background-color: #748FC9;
+  }
+  
+  .PokemonContainer.ghost {
+    background-color: #556AAE;
+  }
+  
+  .PokemonContainer.grass {
+    background-color: #62B957;
+  }
+  
+  .PokemonContainer.ground {
+    background-color: #DD7748;
+  }
+  
+  .PokemonContainer.ice {
+    background-color: #61CEC0;
+  }
+  
+  .PokemonContainer.normal {
+    background-color: #9DA0AA;
+  }
+  
+  .PokemonContainer.poison {
+    background-color: #A552CC;
+  }
+  
+  .PokemonContainer.psychic {
+    background-color: #EA5D60;
+  }
+  
+  .PokemonContainer.rock {
+    background-color: #BAAB82;
+  }
+  
+  .PokemonContainer.steel {
+    background-color: #417D9A;
+  }
+  
+  .PokemonContainer.water {
+    background-color: #4A90DA;
+  }
